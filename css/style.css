@@ -1,0 +1,51 @@
+.content{
+	width: 400px;
+    margin: 0 auto;
+    border: 2px dashed #999;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#pole{
+	float: left;
+	margin-right: 30px;
+	border-collapse: collapse;
+}
+#pole td{
+	border: 2px solid #999;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+	font-family: sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	/* padding: 0; */
+	/* margin: 0; */
+}
+#pole td:hover{
+	background: #d2d2d2;
+}
+#pole td.user:after{
+	content: "X";
+}
+#pole td.comp:after{
+	content: "O";
+}
+#results{
+	text-align: center;
+	width: 240px;
+}
+#results h3{
+	margin-top: 0px;
+}
+#results table{
+	width: 100%;
+	border-collapse: collapse;
+}
+#results table td{
+	text-align: center;
+}
+#results tfoot td{
+	border-top: 2px solid #0000d2;
+}
